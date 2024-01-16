@@ -1,7 +1,7 @@
 # sourcerers-leagueMgmt
 A sports league management web application
 
-##Link
+## Link
 https://playpal.netlify.app/
 
 # Notes
