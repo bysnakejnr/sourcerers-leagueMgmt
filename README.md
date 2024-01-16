@@ -1,6 +1,8 @@
 # sourcerers-leagueMgmt
 A sports league management web application
 
+##Link
+https://playpal.netlify.app/
 
 # Notes
 using yarn for package management for the frontend of the project
