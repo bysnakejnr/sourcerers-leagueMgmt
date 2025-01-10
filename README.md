@@ -2,7 +2,7 @@
 A sports league management web application
 
 ## Link
-https://playpal.netlify.app/
+https://playpalapp.netlify.app/
 
 # Notes
 using yarn for package management for the frontend of the project
