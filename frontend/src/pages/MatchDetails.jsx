@@ -12,7 +12,7 @@ import { BsGearFill } from "react-icons/bs";
 import useAuth from "../hooks/auth";
 import {getToken} from "../hooks/auth"; 
 
-const backend = import.meta.env.MODE === 'development' ? 'http://localhost:8000' : 'https://panicky-robe-mite.cyclic.app';
+const backend = import.meta.env.MODE === 'development' ? 'http://localhost:8000' : 'https://sourcerers-leaguemgmt.onrender.com';
 const backendPhotos = 'https://playpal-images.s3.amazonaws.com/images';
 
 const MatchDetails = () => {

@@ -4,7 +4,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { FaSearchPlus } from 'react-icons/fa';
 import {checkIfSignedIn, getToken} from "../../hooks/auth";
 
-const backend = import.meta.env.MODE === "development" ? "http://localhost:8000" : "https://panicky-robe-mite.cyclic.app";
+const backend = import.meta.env.MODE === "development" ? "http://localhost:8000" : "https://sourcerers-leaguemgmt.onrender.com";
 
 const AdminTeamMnt = () => {
   

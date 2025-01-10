@@ -2,7 +2,7 @@ import {Button, Row, Col} from 'react-bootstrap';
 import { useState } from 'react';
 import {FaSearch, FaFilter } from 'react-icons/fa';
 
-const backend = import.meta.env.MODE === "development" ? "http://localhost:8000" : "https://panicky-robe-mite.cyclic.app";
+const backend = import.meta.env.MODE === "development" ? "http://localhost:8000" : "https://sourcerers-leaguemgmt.onrender.com";
 
 const Search = () => {
 

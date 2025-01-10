@@ -5,7 +5,7 @@ import useNotification from "../hooks/notification";
 import { useNavigate } from 'react-router-dom';
 import '../App.css'
 
-const backend = import.meta.env.MODE === 'development' ? 'http://localhost:8000' : 'https://panicky-robe-mite.cyclic.app';
+const backend = import.meta.env.MODE === 'development' ? 'http://localhost:8000' : 'https://sourcerers-leaguemgmt.onrender.com';
 
 const Notification = () => {
   const navigate = useNavigate(); 

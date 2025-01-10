@@ -4,7 +4,7 @@ import { useNavigate, useLocation, useParams } from 'react-router-dom';
 import useAuth, {checkIfSignedIn, getToken} from "../hooks/auth";
 import {Form} from 'react-bootstrap/';
 
-const backend = import.meta.env.MODE === "development" ? "http://localhost:8000" : "https://panicky-robe-mite.cyclic.app";
+const backend = import.meta.env.MODE === "development" ? "http://localhost:8000" : "https://sourcerers-leaguemgmt.onrender.com";
 const backendPhotos = 'https://playpal-images.s3.amazonaws.com/images';
 
 const TeamMaintenance = () => {

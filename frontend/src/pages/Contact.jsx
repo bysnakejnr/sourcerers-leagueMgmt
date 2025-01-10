@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 import { useState, useEffect }  from 'react';
 import { useNavigate } from 'react-router-dom';
 
-const backend = import.meta.env.MODE === "development" ? "http://localhost:8000" : "https://panicky-robe-mite.cyclic.app";
+const backend = import.meta.env.MODE === "development" ? "http://localhost:8000" : "https://sourcerers-leaguemgmt.onrender.com";
 
 const Contact = () => {
 

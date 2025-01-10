@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 import { Button, MenuItem } from '@mui/material';
 import {getToken} from "../../../hooks/auth";
 
-const backend = import.meta.env.MODE === "development" ? "http://localhost:8000" : "https://panicky-robe-mite.cyclic.app";
+const backend = import.meta.env.MODE === "development" ? "http://localhost:8000" : "https://sourcerers-leaguemgmt.onrender.com";
 
 const AdminMatches = () => {
   const token = `Bearer ${getToken()}`
