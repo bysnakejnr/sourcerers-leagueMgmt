@@ -42,7 +42,7 @@ app.use(
     // origin: "https://playpal.netlify.app",
     origin: [
       "http://127.0.0.1:5173",
-      "https://playpal.netlify.app",
+      "https://playpalapp.netlify.app",
       "http://localhost:5173",
     ],
     //preflightContinue: true,
